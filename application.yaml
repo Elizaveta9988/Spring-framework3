@@ -1,0 +1,13 @@
+spring:
+ datasource:
+  url: jdbc:postgresql://localhost:5432/hibernate_test
+  username: hibernate
+  password: hibernate
+ jpa:
+  hibernate:
+   ddl-auto: update
+ show-sql: true
+ jwt:
+  token:
+   validity: 10000
+  secret: secret
